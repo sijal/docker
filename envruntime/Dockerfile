@@ -1,0 +1,2 @@
+FROM ubuntu:24.04
+CMD ["/bin/bash", "-c", "echo URL=$DB_URL USERNAME=$DB_USERNAME PASSWORD=$DB_PASSWORD"]

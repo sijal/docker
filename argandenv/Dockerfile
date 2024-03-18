@@ -1,0 +1,6 @@
+FROM ubuntu:24.04
+ARG APP_VERSION="1.0"
+ARG APP_NAME="Travels GO"
+ENV VERSION=${APP_VERSION}
+ENV NAME=${APP_NAME}
+CMD ["/bin/bash", "-c", "echo VERSION=${VERSION} NAME=${NAME}"]
